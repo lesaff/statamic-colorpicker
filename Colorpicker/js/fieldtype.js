@@ -33,7 +33,7 @@ Vue.component('colorpicker-fieldtype', {
             position: 'bottom left',
             show: null,
             showSpeed: 100,
-            theme: 'default'
+            theme: 'bootstrap'
         });
     },
 

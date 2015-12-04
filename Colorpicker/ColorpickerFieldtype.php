@@ -7,16 +7,6 @@ use Statamic\Extend\Fieldtype;
 class ColorpickerFieldtype extends Fieldtype
 {
     /**
-     * The blank/default value
-     *
-     * @return array
-     */
-    public function blank()
-    {
-        return null;
-    }
-
-    /**
      * Pre-process the data before it gets sent to the publish page
      *
      * @param mixed $data
