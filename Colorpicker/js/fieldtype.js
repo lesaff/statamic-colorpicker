@@ -37,6 +37,6 @@ Vue.component('colorpicker-fieldtype', {
         });
     },
 
-    template: '<div><input type="text" v-model="data" id="colorpicker" class="form-control" data-control="hue" value="#000000"></div>'
+    template: '<div><input type="text" v-model="data" id="colorpicker" class="form-control" data-control="hue" /></div>'
 
 });
