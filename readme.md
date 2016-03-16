@@ -1,5 +1,9 @@
 # Colorpicker field type  
 Requirement: Statamic v2.x
+Version: 1.0.3
+
+### Version note
+- 1.0.3 utilized the new addon resources pipeline. If you're still on the older beta build, please use the [older_beta](https://github.com/lesaff/statamic-colorpicker/tree/older_beta) branch.
 
 ### What is this?
 Add colorpicker field type to Statamic V2

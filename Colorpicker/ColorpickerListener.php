@@ -13,9 +13,8 @@ class ColorpickerListener extends Listener
 
     public function initColorpicker()
     {
-        $addon_name = $this->getAddonClassName();
-        $addon_path = Path::makeRelative(addons_path($addon_name));
-        $html = '<link rel="stylesheet" href="/' . $addon_path . '/css/jquery.minicolors.css">';
+        $addon_css = $this->css->url('jquery.minicolors.css');
+        $html = '<link rel="stylesheet" href="' . $addon_css . '">';
         return $html;
     }
 
