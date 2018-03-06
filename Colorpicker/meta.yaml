@@ -4,3 +4,20 @@ description: Add colorpicker field type to Statamic V2
 url: https://github.com/lesaff/statamic-colorpicker
 developer: Rudy Affandi
 developer_url: https://github.com/lesaff
+fieldtype_fields:
+  format:
+    type: select
+    options:
+      hex: Hex
+      rgb: RGB
+    default: hex
+  control:
+    type: select
+    options:
+      hue: Hue
+      brightness: Brightness
+      saturation: Saturation
+      wheel: Wheel
+    default: hue
+  show_opacity:
+    type: toggle

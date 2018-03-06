@@ -6,7 +6,10 @@ Vue.component('colorpicker-fieldtype', {
 
     data: function() {
         return {
-            show: true
+            show: true,
+            format: this.config.format,
+            control: this.config.control,
+            showOpacity: this.config.show_opacity
         };
     },
 
@@ -20,16 +23,16 @@ Vue.component('colorpicker-fieldtype', {
             animationEasing: 'swing',
             change: null,
             changeDelay: 0,
-            control: 'hue',
+            control: this.control,
             dataUris: true,
             defaultValue: '',
-            format: 'hex',
+            format: this.format,
             hide: null,
             hideSpeed: 100,
             inline: false,
             keywords: '',
             letterCase: 'lowercase',
-            opacity: false,
+            opacity: this.showOpacity,
             position: 'bottom left',
             show: null,
             showSpeed: 100,
